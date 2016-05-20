@@ -1,0 +1,6 @@
+{
+    "name": "monk/business",
+    "require": {
+        "gregwar/captcha": "^1.1"
+    }
+}

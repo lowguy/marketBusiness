@@ -1,0 +1,36 @@
+.login-form{
+    font-size: 20px;
+    margin:0 auto;
+    border: solid 1px #DEDEDE;
+    padding:50px 0;
+    text-align: center;
+}
+.col-md-6{
+    float: none;
+}
+.login-form .input-group{
+    width:60%;
+    margin:0 auto;
+}
+
+.login-form .has-error .help-block{
+    width:60%;
+    margin: 0 auto;
+    font-size:12px;
+}
+
+.change-captcha{
+    cursor: pointer;
+    height: 34px;
+    border-radius:0 3px 3px 0;
+    width:40%;
+}
+
+#code {
+    width:60%;
+}
+
+form .btn-primary{
+    width:180px;
+    opacity: 0.9;
+}

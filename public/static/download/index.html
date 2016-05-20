@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta charset="UTF-8">
+    <title>小小家一生活助手</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            position:relative;
+        }
+        .background{
+            width:100%;
+        }
+        a{
+            position:absolute;
+            top:62.5%;
+            z-index:1;
+            height: 50px;
+            background-color:transparent;
+            display:block;
+            width:50%;
+            background-size:contain;
+            background-repeat:no-repeat;
+            background-position: 50%;
+        }
+        .ios{
+            left:0;
+            background-image: url('./ios.png');
+        }
+        .android{
+            right:0;
+            background-image: url('./android.png');
+        }
+    </style>
+</head>
+<body>
+    <img class="background" src="./background.png"/>
+    <a class="ios" href="http://www.baidu.com"></a>
+    <a class="android" href="http://www.baidu.com"></a>
+</body>
+</html>
